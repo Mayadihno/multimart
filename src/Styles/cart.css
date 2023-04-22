@@ -1,0 +1,27 @@
+.table tr td img{
+    width: 50px !important;
+    height: 60px !important;
+    object-fit: contain;
+}
+.table span{
+    cursor: pointer;
+}
+td,th{
+    color: var(--primary-color);
+}
+.remove{
+    background: var(--primary-color);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.remove i{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: .9rem;
+}
